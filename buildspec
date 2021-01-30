@@ -22,5 +22,5 @@ phases:
       - echo {\"repo\":\"${REPO}\"} > repo.json
 artifacts:
   files:
-    - target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar
+    - target/*.jar
     - repo.json
